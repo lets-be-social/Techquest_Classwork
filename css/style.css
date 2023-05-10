@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title-head {
+  width: 100%;
+  float: left;
+  font-size: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f79203;
+  text-align: left;
+  font-weight: bolder;
+}
+.title-desc1 {
+  margin-top: 0%;
+  width: 100%;
+  float: left;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #12bcde;
+  text-align: left;
+  margin-left: 5px;
+  padding-top: 0%;
+  margin-bottom: 10%;
+}
+.title-desc {
+  padding-top: 50px;
+  margin-top: 30px;   
+  width: 100%;
+  float: left;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #12bcde;
+  text-align: left;
+  margin-left: 0px;
+}
+
+.lorem_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #12bcde;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.about_bg {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 10%;
+}
+
+.write-up {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #3b3838;
+  text-align: left;
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px;
+  line-height: 40px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 30px 0;
+  font-size: 30px;
+}
+
+ul.b {
+  list-style: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+li {
+  margin: 10px;
+  padding: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #f79203;
+}
+.footer-main {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+}
